@@ -9,7 +9,136 @@
 </head>
 <body>
 
-    
+    <div id="blur">
+        <form id="form" action="">
+            <div class="input-wrapper">
+                <label class="input-label" for="name">Name</label><br>
+                <input class="text-input" id="name" type="text" placeholder="Enter your name"><br>
+            </div>
+
+            <div class="input-wrapper">
+                <label class="input-label" for="email">Email</label><br>
+                <input class="text-input" id="email" type="text" placeholder="Enter your Email"><br>
+            </div>
+
+            <div class="input-wrapper">
+                <label class="input-label" for="age">Age <span>(optional)</span></label><br>
+                <input class="text-input" id="email" type="text" placeholder="Enter yout age"><br>
+            </div>
+
+            <div class="input-wrapper">
+                <label class="input-label" for="email">Which option best describes your current role?</label><br>
+                <select class="text-input" name="current-role">
+                    <option value="default">Select current role</option>
+                    <option value="student">Student</option>
+                    <option value="full-time">Full Time Job</option>
+                    <option value="full-time-learner">Full Time Leraner</option>
+                    <option value="prefer-not-to-say">Prefer Not To Say</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="input-wrapper">
+                <p class="input-label">Would you recommend freeCodeCamp to a friend?</p>
+                <label class="radio" for="definitely">
+                    <input class="radio" id="definitely" type="radio" name="recommendation" value="definitiley" checked>
+                    Definitely
+                </label>
+                <br>
+                <label class="radio" for="maybe">
+                    <input class="radio" id="maybe" type="radio" name="recommendation" value="maybe">
+                    maybe
+                </label>
+                <br>
+                <label class="radio" for="not-sure">
+                    <input class="radio" id="not-sure" type="radio" name="recommendation" value="not-sure">
+                    Not sure
+                </label>
+            </div>
+
+            <div class="input-wrapper">
+                <label for="favorite-feature" class="input-label">What is your favorite feature of freeCodeCamp?</label>
+                <select class="text-input" name="favorite-feature" id="favorite-feature">
+                    <option value="default">Select an option</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="open-source">Open Source</option>
+                </select>
+            </div>
+
+            <div class="input-wrapper">
+                <p class="input-label">What would you like to see improved? <span>(Check all that apply)</span></p>
+
+                <div class="check-box-wrapper">
+                    <label class="check-box" for="back-end">
+                        <input class="check-box" id="back-end" type="checkbox" name="improved-skills" value="back-end-projects">
+                        Back-end Projects
+                    </label>
+                    <br>
+                    <label class="check-box" for="data-visualization">
+                        <input class="check-box" id="data-visualization" type="checkbox" name="improved-skills" value="data-visualization">
+                        Data visualization
+                    </label>
+                    <br>
+                    <label class="check-box" for="challenges">
+                        <input class="check-box" id="challenges" type="checkbox" name="improved-skills" value="challenges">
+                        Challenges
+                    </label>
+                    <br>
+                    <label class="check-box" for="open-source-community">
+                        <input class="check-box" id="open-source-community" type="checkbox" name="improved-skills" value="open-source-community">
+                        Open Source Community
+                    </label>
+                    <br>
+                    <label class="check-box" for="gitter-help-rooms">
+                        <input class="check-box" id="gitter-help-rooms" type="checkbox" name="improved-skills" value="gitter-help-rooms">
+                        Gitter help rooms
+                    </label>
+                    <br>
+                    <label class="check-box" for="front-end">
+                        <input class="check-box" id="front-end" type="checkbox" name="improved-skills" value="front-end-projects">
+                        Front-end Projects
+                    </label>
+                    <br>
+                    <label class="check-box" for="front-end">
+                        <input class="check-box" id="front-end" type="checkbox" name="improved-skills" value="front-end-projects">
+                        Front-end Projects
+                    </label>
+                    <br>
+                    <label class="check-box" for="videos">
+                        <input class="check-box" id="videos" type="checkbox" name="improved-skills" value="videos">
+                        Videos
+                    </label>
+                    <br>
+                    <label class="check-box" for="city-meetups">
+                        <input class="check-box" id="city-meetups" type="checkbox" name="improved-skills" value="city-meetups">
+                        City Meetups
+                    </label>
+                    <br>
+                    <label class="check-box" for="wiki">
+                        <input class="check-box" id="wiki" type="checkbox" name="improved-skills" value="wiki">
+                        Wiki
+                    </label>
+                    <br>
+                    <label class="check-box" for="Forum">
+                        <input class="check-box" id="Forum" type="checkbox" name="improved-skills" value="Forum">
+                        Forum
+                    </label>
+                    <br>
+                    <label class="check-box" for="additional-courses">
+                        <input class="check-box" id="additional-courses" type="checkbox" name="improved-skills" value="additional-courses">
+                        Additional courses
+                    </label>
+                </div>
+            </div>
+
+            <div class="input-wrapper">
+                <label class="input-label" for="comment">Any comments or suggestions?</label><br>
+                <textarea name="comments" id="comment-area" cols="30" rows="8" placeholder="Enter your comment here..."></textarea>
+            </div>
+        </form>
+    </div>
     
 </body>
 </html>
